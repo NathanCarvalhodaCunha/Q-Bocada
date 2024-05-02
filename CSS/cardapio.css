@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #f6f7f8;
+    font-family: 'Noto Sans', sans-serif;
+}
+.fundo{
+    width: 100%;
+    height: 420px;
+    background-image: url("../Imagens/Fundo/etec.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+.logo{
+    width: 128px;
+    height: 128px;
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.nome{
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: white;
+}
+.topo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.hr{
+    background-color: #b81414;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+.conheça{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+.borda-hambs{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 64px;
+}
+.hamb{
+    width: 112px;
+    height: 112px;
+    border-radius: 6px;
+}
+.hamb:hover{
+    transform: scale(1.1);
+    transform: rotate(-2deg);
+    transition-duration: 300ms;
+}
+.nome-hamb{
+    font-weight: 700;
+}
+.desc-hamb{
+    font-size: 14px;
+    line-height: 20px;
+}
+.pr-hamb{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 12px;
+}
+.esp-hamb{
+    display: flex;
+    gap: 8px;
+}
+.bebidas{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.beb{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.borda-bebs{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 64px;
+    width: 100%;
+}
+.beb{
+    width: 112px;
+    height: 112px;
+    border-radius: 6px;
+}
+.beb:hover{
+    transform: scale(1.1);
+    transform: rotate(-2deg);
+    transition-duration: 300ms;
+}
+.nome-beb{
+    font-weight: 700;
+}
+.pr-beb{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 12px;
+}
+.esp-beb{
+    display: flex;
+    gap: 8px;
+}
+.grid-beb{
+    width: 100%;
+}
+.but{
+    width: 100%;
+    background-color: rgb(239 68 68);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: rgb(239 68 68);
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+@media (min-width: 760px){
+    .conheça{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .borda-hambs{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+    }
+    .borda-bebs{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+    }
+}
