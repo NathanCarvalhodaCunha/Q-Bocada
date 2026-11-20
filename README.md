@@ -1,40 +1,61 @@
-<h1 align="center">🍔 Q Bocada</h1>
+# Q Bocada
 
-<p align="center">Website for <b>Q Bocada</b>, a burger restaurant: a digital menu for customers and a simple expense tracker for the owner.</p>
+![GitHub repo size](https://img.shields.io/github/repo-size/NathanCarvalhodaCunha/Q-Bocada?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/NathanCarvalhodaCunha/Q-Bocada?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/NathanCarvalhodaCunha/Q-Bocada?style=for-the-badge)
+![GitHub open issues](https://img.shields.io/github/issues/NathanCarvalhodaCunha/Q-Bocada?style=for-the-badge)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr/NathanCarvalhodaCunha/Q-Bocada?style=for-the-badge)
 
-<p align="center">
-<a href="https://q-bocada.vercel.app"><img src="https://img.shields.io/badge/Live_demo-q--bocada.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo" /></a>
-</p>
+<img src=".github/preview.png" alt="Q Bocada preview">
 
-<p align="center">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-</p>
+> Website for Q Bocada, a burger restaurant: a digital menu for customers and a simple expense tracker for the owner.
 
-## ✨ Features
+🔗 **Live demo:** [q-bocada.vercel.app](https://q-bocada.vercel.app)
 
-- 🔐 **Login page** with show/hide password
-- 📋 **Digital menu** with burgers, ingredients and prices, plus a WhatsApp order button
-- 💸 **Expense tracker** for the owner — add income and expenses and see the totals and balance
-- 💾 Expense data saved with **localStorage**
+## ✅ Features
 
-> ⚠️ The login is a front-end demo (it only redirects between pages) and is not real authentication.
+- [x] Login page with show/hide password
+- [x] Digital menu with burgers, ingredients and prices
+- [x] WhatsApp order button
+- [x] Expense tracker for the owner: income, expenses, totals and balance
+- [x] Expense data saved with localStorage
 
-## 🛠 Tech stack
+## 🛠 Technologies
 
-- HTML5 and CSS3
-- Vanilla JavaScript
-- Deployed on Vercel
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## ▶️ Running locally
+## 💻 Prerequisites
+
+Before you begin, make sure you have:
+
+- A modern web browser (Chrome, Firefox, Edge or Safari)
+- [Git](https://git-scm.com/) installed
+
+## 🚀 Installing Q Bocada
+
+To install Q Bocada, follow these steps:
+
+Linux and macOS:
 
 ```bash
 git clone https://github.com/NathanCarvalhodaCunha/Q-Bocada.git
 cd Q-Bocada
 ```
 
-Then open `index.html` in your browser (no build step needed).
+Windows:
+
+```powershell
+git clone https://github.com/NathanCarvalhodaCunha/Q-Bocada.git
+cd Q-Bocada
+```
+
+## ☕ Using Q Bocada
+
+To use Q Bocada, follow these steps:
+
+Open `index.html` in your browser, or use the live demo. Customers are taken to the menu (`cardapio.html`) after logging in, and the owner is taken to the expense tracker (`despesas.html`).
+
+> ⚠️ The login is a front-end demo that only redirects between pages. It is not real authentication.
 
 ## 📁 Project structure
 
@@ -43,11 +64,33 @@ Then open `index.html` in your browser (no build step needed).
 ├── cardapio.html   # menu
 ├── despesas.html   # expense tracker
 ├── CSS/
-└── JS/
+├── JS/
+└── Imagens/
 ```
 
-## 👨‍💻 Author
+## 📫 Contributing to Q Bocada
 
-**Nathan Carvalho da Cunha** — Systems Development technical student
+To contribute to Q Bocada, follow these steps:
 
-[GitHub](https://github.com/NathanCarvalhodaCunha) · [LinkedIn](https://www.linkedin.com/in/nathan-carvalho-da-cunha-654b9b302)
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <branch_name>`
+5. Create the pull request.
+
+Alternatively, see the GitHub documentation on [creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+
+## 🤝 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/NathanCarvalhodaCunha" title="Nathan Carvalho da Cunha on GitHub">
+        <img src="https://github.com/NathanCarvalhodaCunha.png" width="100" alt="Nathan Carvalho da Cunha's GitHub photo"/><br>
+        <sub>
+          <b>Nathan Carvalho da Cunha</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
